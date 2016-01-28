@@ -1,0 +1,125 @@
+/* This is my CSS file for google homepage */
+
+.header {
+	float: right;
+	margin: 0 15px 120px 15px;
+}
+
+.header ul {
+	list-style-type: none;
+    padding: 0px;
+    text-decoration: none;
+    text-align: right;
+}
+
+.header ul li {
+	display: inline-block;
+	position: relative;
+	padding: 0 13px 10px 0;
+	vertical-align: middle;
+}
+
+.header ul li a {
+	text-decoration: none;
+	color: #008000;
+}
+
+#sign-in a{
+	background: linear-gradient(180deg, #4387FD, #4683EA);
+	color: #ffffff;
+	padding: 6px 12px;
+	font-weight: bold;
+	border-radius: 2px;
+	border: 1px solid #4285F4;
+}
+
+.logo {
+	width: 300px;
+	height: 100px;
+	margin: auto;	
+}
+
+.logo p{
+	position: relative;
+	left: 220px;
+	top: 70px;
+	font-weight: bold;
+	color: #009000;
+}
+
+form {
+	text-align: center;
+}
+
+form input[type=search] {
+	display: block;
+	margin: 20px auto 10px auto;
+	padding: 5px;
+	width: 500px;
+	font-size: 16px;
+	border: 1px solid #0000FF;
+}
+
+form input[type=submit] {
+	font-size: 11px;
+	font-weight: bold;
+	padding: 8px 8px 6px 8px;
+	margin: 5px;
+	color: #ADFF2F;
+	border: 1px solid #0000FF;
+	border radius: 2px;
+}
+
+.language_info {
+	text-align: center;
+	margin: 40px;
+	color: #808000;
+	font-size: small;
+}
+
+.language info a {
+	text-decoration: underline;
+}
+
+
+.footer {
+	background-color: #f2f2f2;
+	width: 100%;
+	height: 40px;
+	position: fixed;
+	bottom: 0px;
+	font-size: 15px;
+	font-family: Arial;
+	margin-left:-10px; 
+	border: 0.01px solid #e5e5e5;
+}
+
+.footer ul, .footer ul li {
+	display: inline-block;
+	padding: 0 15px 0 15px;
+}
+
+.left {
+	margin-left: 2px;
+	float: left;
+	color: #606060;
+}
+
+.right {
+    margin-right: 2px;
+	float: right;
+	color: #606060;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
